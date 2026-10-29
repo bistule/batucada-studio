@@ -10,6 +10,9 @@ instrument peut être monté, baissé, coupé ou isolé pour travailler le vôtr
 ▶ **Essayez tout de suite : [bistule.github.io/batucada-studio](https://bistule.github.io/batucada-studio/)**
 — rien à installer, ça tourne dans le navigateur.
 
+Et si l'envie vous prend, **chaque groupe peut l'avoir chez lui** : on l'installe en
+quelques minutes, avec son propre répertoire, son nom et son logo.
+
 ## Ce que vous pouvez faire
 
 - **Boucler un morceau** : le break tourne en boucle, avec le pas courant surligné sur la
