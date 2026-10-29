@@ -46,7 +46,7 @@ Les effets visuels s'allument au rythme, et le mixeur s'ouvre par-dessus pour do
 couper ou isoler chaque pupitre **sans arrêter la musique** — c'est là qu'on travaille
 son instrument, seul contre le reste du groupe.
 
-![Le mode Groovy Beat, effets visuels activés](docs/screenshots/groovy-beat.png)
+![Le mode Groovy Beat en action (animation)](docs/screenshots/groovy-demo.webp)
 
 ![Le mixeur par pupitre ouvert pendant la lecture](docs/screenshots/mixeur.png)
 
