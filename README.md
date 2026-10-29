@@ -13,6 +13,10 @@ instrument peut être monté, baissé, coupé ou isolé pour travailler le vôtr
 Et si l'envie vous prend, **chaque groupe peut l'avoir chez lui** : on l'installe en
 quelques minutes, avec son propre répertoire, son nom et son logo.
 
+![Batucada Studio sur ordinateur : la grille du pattern pendant la lecture](docs/screenshots/ecran-jeu.png)
+
+<img src="docs/screenshots/mobile.png" alt="Batucada Studio sur téléphone" width="280">
+
 ## Ce que vous pouvez faire
 
 - **Boucler un morceau** : le break tourne en boucle, avec le pas courant surligné sur la
