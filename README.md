@@ -5,6 +5,10 @@ breakpoints joués en boucle, accompagné d'une piste audio multi-instruments (s
 caisse, repinique, agogô, shaker…) pilotée par le navigateur via l'API **Web Audio**.
 Application **Vue 3 + TypeScript + Vite**.
 
+▶ **Démo en ligne : [bistule.github.io/batucada-studio](https://bistule.github.io/batucada-studio/)**
+— publication automatique à chaque envoi sur `main` ; l'état du visiteur repart de la base
+une fois par jour.
+
 Fonctionnalités principales :
 
 - Lecture en boucle des morceaux du répertoire, avec surbrillance du pas courant sur la
