@@ -13,7 +13,11 @@ instrument peut être monté, baissé, coupé ou isolé pour travailler le vôtr
 Et si l'envie vous prend, **chaque groupe peut l'avoir chez lui** : on l'installe en
 quelques minutes, avec son propre répertoire, son nom et son logo.
 
+**Sur ordinateur** — la grille du pattern pendant la lecture :
+
 ![Batucada Studio sur ordinateur : la grille du pattern pendant la lecture](docs/screenshots/ecran-jeu.png)
+
+**Sur téléphone** — la même appli dans la poche :
 
 <img src="docs/screenshots/mobile.png" alt="Batucada Studio sur téléphone" width="280">
 
@@ -21,17 +25,32 @@ quelques minutes, avec son propre répertoire, son nom et son logo.
 
 - **Boucler un morceau** : le break tourne en boucle, avec le pas courant surligné sur la
   piste de jeu et le tempo qui pulse. On voit où on en est, on entend où on va.
-- **Travailler son instrument** : mute, solo et volume par instrument, plus un mode
-  d'entraînement « Groovy Beat » pour caler son geste.
+- **Travailler son instrument** : le mode **Groovy Beat** (voir plus bas) pour caler son
+  geste, avec mute, solo et volume par pupitre.
 - **Rester concentré** : un mode Focus qui efface tout le reste (double-clic sur la zone
   de jeu), et un mode basse performance pour les petites machines.
-- **Se lancer des défis** : scores, Hall of Fame et défi quotidien.
+- **Se lancer des défis** : un défi rythmique du jour et un Hall of Fame. Attention, cet
+  espace est **encore en pré-alpha** : il fonctionne, mais il demanderait pas mal
+  d'améliorations avant d'être vraiment agréable — prenez-le comme un aperçu.
 - **Partager** : export d'une fiche PDF, ou QR code à faire scanner à un copain.
 - **Gérer le répertoire** : le **Mode Maestro** (protégé par code PIN) permet d'ajouter,
   modifier ou supprimer des morceaux, et de tout remettre à zéro.
 
 Deux façons de s'en servir, selon qui vous êtes : **Élève / Musicien** pour jouer et
 répéter, **Maestro** pour tenir le catalogue du groupe.
+
+## Le mode Groovy Beat
+
+Le cœur du jeu : les frappes descendent sur une piste verticale, il faut tomber juste.
+Les effets visuels s'allument au rythme, et le mixeur s'ouvre par-dessus pour doser,
+couper ou isoler chaque pupitre **sans arrêter la musique** — c'est là qu'on travaille
+son instrument, seul contre le reste du groupe.
+
+![Le mode Groovy Beat, effets visuels activés](docs/screenshots/groovy-beat.png)
+
+![Le mixeur par pupitre ouvert pendant la lecture](docs/screenshots/mixeur.png)
+
+## Le répertoire
 
 Le répertoire s'appuie sur les partitions et vidéos du projet
 [Rhythms of Resistance](https://www.rhythms-of-resistance.org/), qui restent la propriété
