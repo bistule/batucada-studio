@@ -1,0 +1,14 @@
+services:
+  batucada-studio:
+    build: .
+    container_name: batucada-studio
+    restart: unless-stopped
+    ports:
+      - "30517:3000"
+    volumes:
+      # Données persistantes (config.json, morceaux). Volume nommé par défaut :
+      # remplacez par un bind mount si vous préférez, ex.  /chemin/vers/data:/app/data
+      - batucada-data:/app/data
+
+volumes:
+  batucada-data:

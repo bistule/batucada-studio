@@ -1,0 +1,68 @@
+{
+  "npm": {
+    "total": 5,
+    "critical": 0,
+    "high": 4,
+    "moderate": 0,
+    "low": 1,
+    "info": 0,
+    "avis": [
+      {
+        "paquet": "@vue/server-renderer",
+        "severite": "high",
+        "titres": [
+          "@vue/server-renderer: XSS via missing CR in attribute-name blacklist"
+        ],
+        "fix": true
+      },
+      {
+        "paquet": "dompurify",
+        "severite": "low",
+        "titres": [
+          "DOMPurify: IN_PLACE returns a force-removed rawtext root whose text carries attacker markup — pure HTML reparse executes",
+          "DOMPurify: IN_PLACE: node-removing afterSanitize hook leaves detached subtree event handlers armed, causing DOM XSS"
+        ],
+        "fix": true
+      },
+      {
+        "paquet": "source-map-js",
+        "severite": "high",
+        "titres": [
+          "source-map-js allows event-loop denial of service through indexed source-map section offsets"
+        ],
+        "fix": true
+      },
+      {
+        "paquet": "vite",
+        "severite": "high",
+        "titres": [
+          "Vite: Cross origin script execution through Vite custom middleware",
+          "Vite: Files outside `server.fs.allow` could be served when project paths match system paths on non-Windows machine",
+          "Vite: First 4 bytes of files outside of `server.fs` setting is exposed by `?vite-wasm-instance`",
+          "launch-editor: Editor CLI flag misinterpretation causing arbitrary command execution for some editors",
+          "launch-editor: `fs.existsSync()` existence check can be bypassed on Windows",
+          "launch-editor: escapeCmdArgs() omits % escaping on Windows"
+        ],
+        "fix": true
+      },
+      {
+        "paquet": "vue",
+        "severite": "high",
+        "titres": [],
+        "fix": true
+      }
+    ]
+  },
+  "docker": {
+    "image": "8260ad79ef23",
+    "created": "2026-08-31T07:53:14.232846596Z",
+    "base": "app-batucada-studio",
+    "node": "v20.20.2",
+    "node_maj": "v20.20.2"
+  },
+  "servi": {
+    "js": "index-Cv3bDBRC.js",
+    "css": "index-9aoEw4DH.css",
+    "ok": true
+  }
+}
